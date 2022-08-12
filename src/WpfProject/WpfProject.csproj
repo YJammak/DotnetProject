@@ -11,7 +11,8 @@
     <PackageReference Include="Enums.NET" Version="4.0.0" />
     <PackageReference Include="HandyControl" Version="3.3.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="NLog.Config" Version="4.7.15" />
+    <PackageReference Include="NLog" Version="5.0.1" />
+    <PackageReference Include="NLog.Schema" Version="5.0.1" />
     <PackageReference Include="ReactiveUI.Events.WPF" Version="15.1.1" />
     <PackageReference Include="ReactiveUI.Fody" Version="18.3.1" />
     <PackageReference Include="ReactiveUI.Validation" Version="3.0.1" />
@@ -28,6 +29,15 @@
     <Folder Include="Services\" />
     <Folder Include="Resources\" />
     <Folder Include="Resources\Themes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\hirain\.nuget\packages\nlog.schema\5.0.1\contentFiles\any\any\NLog.xsd">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
