@@ -11,7 +11,7 @@
     <PackageReference Include="Enums.NET" Version="4.0.0" />
     <PackageReference Include="HandyControl" Version="3.3.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="NLog" Version="5.0.2" />
+    <PackageReference Include="NLog" Version="5.0.4" />
     <PackageReference Include="NLog.Schema" Version="5.0.2" />
     <PackageReference Include="ReactiveUI.Events.WPF" Version="15.1.1" />
     <PackageReference Include="ReactiveUI.Fody" Version="18.3.1" />
